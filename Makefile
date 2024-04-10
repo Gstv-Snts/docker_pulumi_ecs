@@ -6,7 +6,7 @@ all: build
 build:
 	@echo "Building..."
 	
-	@go build -o main cmd/api/main.go
+	@cgo_enabled=0 go build -o main cmd/api/main.go
 
 # Run the application
 run:

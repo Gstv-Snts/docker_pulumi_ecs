@@ -6,8 +6,11 @@ import (
 )
 
 func main() {
+	println("opening the server")
 
 	server := server.NewServer()
+
+	println("server created")
 
 	err := server.ListenAndServe()
 	if err != nil {
