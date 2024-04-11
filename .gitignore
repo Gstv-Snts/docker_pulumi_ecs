@@ -23,7 +23,5 @@ tmp/
 .idea
 
 # .env file
-.env
-
 # Project build
 main
